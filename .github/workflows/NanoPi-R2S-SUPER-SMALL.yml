@@ -51,7 +51,7 @@ jobs:
         # all of these default to true, but feel free to set to
         # "false" if necessary for your workflow
         codeql-images: false
-        android: false
+        android: true
         dotnet: false
         haskell: false
         large-packages: false
