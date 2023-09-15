@@ -52,7 +52,6 @@ jobs:
         # "false" if necessary for your workflow
         codeql-images: true
         android: true
-        # android: true is good
         dotnet: true
         haskell: true
         large-packages: false
