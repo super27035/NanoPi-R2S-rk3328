@@ -94,8 +94,11 @@ jobs:
         git clone --depth=1 https://github.com/coolsnowwolf/luci customfeeds/luci
 
         rm -rf ./customfeeds/luci/themes/luci-theme-argon
+        # delete luci-theme-argon
         rm -rf ./customfeeds/luci/themes/luci-theme-argon-mod
+        # delete luci-theme-argon-mo
         rm -rf ./customfeeds/luci/applications/luci-app-argon-config
+        # delete luci-app-argon-config
 
         chmod +x ../scripts/*.sh
         ../scripts/hook-feeds.sh
