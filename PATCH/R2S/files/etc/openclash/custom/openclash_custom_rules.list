@@ -67,3 +67,7 @@ rules:
 ##- DOMAIN-SUFFIX,members.3322.org,DIRECT
 
 ##在线IP段转CIDR地址：http://ip2cidr.com
+
+- IP-CIDR,64.62.0.0/16,🎯 全球直连 #Gotv直连
+- IP-CIDR,122.228.0.0/16,🎯 全球直连 #Gotv直连
+- IP-CIDR,122.227.0.0/16,🎯 全球直连 #Gotv直连
